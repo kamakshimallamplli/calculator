@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: brown;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid chocolate;
+    border-radius: 5px;
+}
+button{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 70px;
+    width: 50px;
+    margin: 10px 10px;
+    font-size: x-large;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: burlywood;
+}
+#value{
+    position: relative;
+    height: 40px;
+    width: 345px;
+    top: 40px;
+    left: 60px;
+    font-size: x-large;
+}
+#equalto{
+    position: absolute;
+    height: 155px;
+    top:63%;
+    left:70%;
+}
+p{
+    position: relative;
+    font-size: xx-large;
+    top: 4%;
+    left: 35%;
+}
